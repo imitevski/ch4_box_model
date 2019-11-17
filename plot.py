@@ -64,7 +64,14 @@ def OH_gfdl_fields():
 	y = np.array([	x1.OH.sum(), x2.OH.sum(), x3.OH.sum(), x4.OH.sum(), x5.OH.sum(), x6.OH.sum(),
 					x7.OH.sum(), x8.OH.sum(), x9.OH.sum(), x10.OH.sum(), x11.OH.sum(), x12.OH.sum()])
 	x = np.arange(1,13)
+
+	fig = plt.figure()
 	plt.plot(y)
+	plt.xlabel('Months')
+	plt.ylabel('OH concentration')
+	plt.title('Monthly averaged OH field (2012-2017) from GFDL') 
+	plt.tight_layout()
+	plt.savefig('OH_concentration.pdf') 
 	plt.show()
 		
 #CH4_emissions_seasonal()
