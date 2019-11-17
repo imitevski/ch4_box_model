@@ -1,1 +1,1 @@
-# methane_box_model
+# Methane Box Model for EESC6926 class
