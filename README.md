@@ -1,6 +1,6 @@
 # Methane Box Model for EESC6926 class
 
-This is a final project and has the report ('report.pdf') and jupyter notebooks used (`*.ipynb`) for running the model and generating all figures. 
+This is a final project and has the report (`report.pdf`) and jupyter notebooks used (`*.ipynb`) for running the model and generating all figures. 
 
 ## Data used: 
 
